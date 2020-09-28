@@ -1,4 +1,4 @@
 # CST8117
 Student accessible lab content
 
-Contains images and base HTML files for Cat Index exercise.
+Contains collateral files for Lab 4
