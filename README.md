@@ -1,2 +1,5 @@
 # CST8117
-Student accessible lab content
+
+Evolving content from Lecture classes. 
+
+
