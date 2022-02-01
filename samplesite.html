@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prof. Frank Emanuel">
+    <meta name="email" content="emanuef@algonquincollege.com">
+    <meta name="date" content="2022-02-01">
+    <link rel="stylesheet" href="Lecture3.css">
+    <style>
+
+        header img {
+
+            width: 60px;
+            float: left;
+
+        }
+
+        /* clearfix */
+
+        header::after {
+
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        header div, header h1 {
+
+                text-align: center;
+                font-style: italic;
+                padding-top: 15pt;
+
+        }
+
+        footer {
+
+            font-style: italic;
+            text-align: center;
+            background-color: mediumaquamarine;
+
+        }
+
+        footer::first-letter{
+
+            font-weight: bolder;
+
+        }
+
+        a {
+
+            color: inherit;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+
+            color: blue;
+            font-weight: bold;
+        }
+
+    </style>
+    <title>magic of inline text</title>
+</head>
+
+<body>
+
+    <hr>
+
+    <header>
+        <img src="images/cat_with_tie.jpg" alt="cat with tie">
+        <h1>Fluffy Kitty</h1>
+    </header>
+
+    <hr>
+
+    <header>
+        <img src="./images/wildmanfrank.jpg" alt="smethign">
+        <div>magic of inline text</div>
+    </header>
+
+    <nav>
+        
+    </nav>
+
+    <p>
+        I have another sentece, this is a bit wacky. This is some text 
+         
+        with a <a href="">link</a> in the middle.
+    </p>
+
+
+    <footer>
+
+        Stuff for the bottom of the web page.
+
+    </footer>
+</body>
+
+</html>
