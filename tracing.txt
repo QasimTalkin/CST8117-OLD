@@ -1,0 +1,12 @@
+x (global) = 4
+y (global) = 17
+PI (global constant) = 3.1415
+
+foo() (global function)
+
+x (local) = hello
+SC: hello 17
+SC: 4 17
+SC: 4 17
+
+

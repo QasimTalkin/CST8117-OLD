@@ -19,6 +19,9 @@ function foo(){
 
 }
 
+
+// this is a function
+
 foo();
 
 console.log( x + ' ' + y + ', ' + a);

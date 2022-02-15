@@ -1,16 +1,40 @@
 let x = 4; 
-var y;
+var y = 'trouble';
 const PI = 3.1415;
 
 function foo(){
    y = 17;
+   var x = 15;
+
    {
-	 let x = 'hello';
-	 console.log( x + ' ' + y);
+	 var x = 'hello';
+
+	 (x == "hello") ? x="bye" : x="hello";
+
+	 console.log( x + ' ' + PI);
 	}
-	console.log( x + ' ' + y);
+
+	// PI = 14.2;
+	console.log( x + ' ' + y + ' ' + PI);
 }
 
+function bar() {
+
+	let y = 'goodbye';
+
+	{
+		let y = 13;
+
+		console.log( y + ' ' + x);
+
+	}
+
+	console.log( y + ' ' + x);
+
+}
+
+
+bar();
 foo();
 console.log( x + ' ' + y);
 
