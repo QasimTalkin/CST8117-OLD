@@ -17,27 +17,40 @@
 			
 		</div>
 
-		<button onclick="cycle()">Advance to Next</button>
+		<!-- <button onclick="cycle()">Advance to Next</button> -->
 
 		<script>
+
+			
+			// start at the first Image
 	
 			var currentImage = 0;
-			cycle();		
 
+			
 			// cycle through the images 
 
+			cycle();		
+
 			function cycle(){
+
+				// turn off all images
+
 				let pics = document.getElementsByClassName("monkey");
 				for (pic of pics){
 					pic.style.display = "none";
 				}
-					
+			
+				// 	if image number past end of images then set to first image
+
 				if (currentImage == pics.length){
 					currentImage = 0; 
 				}
-				
+
+				// 	display the Image and increment image counter 
+
 				pics[currentImage++].style.display = "block";
 
+				// 	wait for an interval (4000 ms) 
 
 				setTimeout( cycle, 4000);
 			}

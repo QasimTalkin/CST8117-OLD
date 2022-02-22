@@ -5,21 +5,30 @@
 		<script>
 			function myScriptFunction() {
 
+				thomas.innerHTML = "BOO!";
+
 				urls = document.getElementsByClassName( "linko" );
 
-				urls.forEach( document.writeln( "hello <br>" ) );
+				thomas.innerHTML = urls.length;
+
+				for( url of urls )
+				{
+					document.writeln( "hello ___" + url + "<br>");
+				}
 			}
 		</script>
 	</head>
 	<body>
 		<h1>You know you want to click this</h1>
 
+		<p id="thomas">0</p>
+
 		<p>
 			<a class= "linko" id="somelink" href="https://www.w3schools.com/">tutorials</a>
 		</p>
 
 		<p class="librarylink">
-			<a id="someotherlink" href="http://www.librarything.com/catalog/pomorev/yourlibrary">
+			<a id="someotherlink" class="linko" href="http://www.librarything.com/catalog/pomorev/yourlibrary">
 				my books
 			</a>
 		</p>
@@ -31,21 +40,26 @@
 		<hr>
 
 		<script>
-			// var url = document.links.somelink.href;
-			// url = someotherlink.href;
-			// url = document.getElementById('somelink').href;
+			// var url = document.links.someotherlink.href;
+			// url = somelink.href;
+			url = document.getElementById('somelink').href;
+
+			// thomas.innerHTML = "potato";
+
 
 			document.write('The URL is: ' + url + '<BR>');
 			
 			urls = document.links;
 		
-			// for (url of urls){
-			// 	document.writeln('-> ' + url.href + '<BR>');
-			// }	
+			for (url of urls){
+				document.writeln('-> ' + url.href + '<BR>');
+			}	
 
-			// for (let i = 0; i < document.links.length; i++){
-			// 	document.writeln ('#' + (i + 1) + ' ' + document.links[i].href + 'link ' + '<BR>');	
-			// }
+			for (let i = 0; i < document.links.length; i++){
+				document.writeln ('#' + (i + 1) + ' ' + document.links[i].href + 'link ' + '<BR>');	
+			}
+
+
 
 			myScriptFunction();
 
