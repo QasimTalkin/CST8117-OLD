@@ -10,6 +10,8 @@ function loginBox() {
 
 }
 
+const direction = [10, 10, 10, 20];
+
 function bouncy() {
 
     // check the bounds of the screen
@@ -32,7 +34,7 @@ function bouncy() {
 
 }
 
-const direction = [10, 10, 10, 20];
+
 
 
 

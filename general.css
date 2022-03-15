@@ -151,4 +151,8 @@ footer {
     left: 10px;
     top: 20px;
 
+    transition-property: all;
+    transition-duration: 117ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.54, 1);
+
 }

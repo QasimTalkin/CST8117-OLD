@@ -76,8 +76,9 @@ div[id^="line"] {
     font-size: 49pt;
     padding: 10pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    transition: all;
+    color: rgb(34, 10, 250);
+
+    transition: background-color;
     transition-duration: 500ms;
     transition-timing-function: ease-in;
 
@@ -175,6 +176,7 @@ button {
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     left: -300px;
+    
     transition: all;
     transition-duration: 500ms;
     transition-timing-function: ease-in;
