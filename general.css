@@ -117,12 +117,25 @@ nav button:active, #closeLogin:active, #loginSubmit:active {
     font-size: 12pt;
 
     overflow-wrap: break-word;
+
+    /* filter: blur(1px); */
+
+
     
+}
+
+.content code:hover{
+
+
+    filter: unset;
+    /* filter: hue-rotate(180deg); */
+
 }
 
 .content img {
 
     width: 100%;
+    filter: drop-shadow(8px 10px 2px blue);
     
 }
 
