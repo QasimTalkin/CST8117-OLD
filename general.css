@@ -119,6 +119,8 @@ nav button:active, #closeLogin:active, #loginSubmit:active {
     overflow-wrap: break-word;
 
     /* filter: blur(1px); */
+    filter: hue-rotate(180deg) drop-shadow(8px 10px 2px red);
+
 
 
     
@@ -135,7 +137,8 @@ nav button:active, #closeLogin:active, #loginSubmit:active {
 .content img {
 
     width: 100%;
-    filter: drop-shadow(8px 10px 2px blue);
+    filter: drop-shadow(-8px -10px 2px blue)
+            sepia(80%);
     
 }
 
@@ -168,4 +171,12 @@ footer {
     transition-duration: 117ms;
     transition-timing-function: cubic-bezier(0, 0, 0.54, 1);
 
+
+    filter: drop-shadow(8px 10px 2px blue);
+}
+
+#pet {
+
+    width: 25%;
+    filter: drop-shadow(-8px -10px 2px blue);
 }
