@@ -106,6 +106,20 @@ nav button:active, #closeLogin:active, #loginSubmit:active {
 
 }
 
+.selection {
+
+    font-size: 14pt;
+    padding: 1pt 3pt;
+    background-color: azure;
+
+}
+
+.centered {
+
+    text-align: center;
+    
+}
+
 .content code {
 
     display: block;
@@ -180,6 +194,7 @@ footer {
 
 #weatherbox{
     width: 50%;
+    max-width: 400pt;
     margin: 30px auto;
     border: black solid;
     text-align: center;
