@@ -120,9 +120,6 @@ nav button:active, #closeLogin:active, #loginSubmit:active {
 
     /* filter: blur(1px); */
     filter: hue-rotate(180deg) drop-shadow(8px 10px 2px red);
-
-
-
     
 }
 
@@ -180,3 +177,18 @@ footer {
     width: 25%;
     filter: drop-shadow(-8px -10px 2px blue);
 }
+
+#weatherbox{
+    width: 50%;
+    margin: 30px auto;
+    border: black solid;
+    text-align: center;
+    padding: 10%;
+}
+
+#weathertext{
+    width: 80%;
+    margin: auto;
+    background-color: cadetblue;
+}
+
